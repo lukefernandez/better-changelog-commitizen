@@ -1,0 +1,50 @@
+{
+  "feat": {
+    "description": "New feature addition",
+    "title": "New Feature"
+  },
+  "fix": {
+    "description": "Bug fix",
+    "title": "Bug Fix"
+  },
+  "refactor": {
+    "description": "Code change that does not change the behavior of the code",
+    "title": "Code Refactor"
+  },
+  "form": {
+    "description": "Formatting change (e.g. comma removal, spacing change)",
+    "title": "Formatting Change"
+  },
+  "docs": {
+    "description": "Documentation change",
+    "title": "Documentation Change"
+  },
+  "test": {
+    "description": "Testing change",
+    "title": "Test Change"
+  },
+  "perf": {
+    "description": "Performance improvement",
+    "title": "Performance Improvement"
+  },
+  "security": {
+    "description": "Security patch",
+    "title": "Security Patch"
+  },
+  "ci/cd": {
+    "description": "CI/CD configuration change",
+    "title": "CI/CD Change"
+  },
+  "depend": {
+    "description": "Dependency change",
+    "title": "Dependency Change"
+  },
+  "revert": {
+    "description": "Reversion to a previous commit",
+    "title": "Reversion"
+  },
+  "feat-removal": {
+    "description": "Feature removal",
+    "title": "Feature Removal"
+  }
+}

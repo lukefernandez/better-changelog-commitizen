@@ -1,0 +1,37 @@
+{
+  "name": "better-changelog-commitizen",
+  "version": "0.1.0",
+  "description": "A commitizen adapter for the opinionated better-changelog specification.",
+  "main": "index.js",
+  "homepage": "https://github.com/lukefernandez/better-changelog-commitizen",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lukefernandez/better-changelog-commitizen"
+  },
+  "engineStrict": true,
+  "engines": {
+    "node": ">= 10"
+  },
+  "author": "Luke Fernandez",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^2.4.1",
+    "commitizen": "^4.0.3",
+    "lodash.map": "^4.5.1",
+    "longest": "^2.0.1",
+    "word-wrap": "^1.0.3"
+  },
+  "devDependencies": {
+    "prettier": "^1.15.3"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./index.js",
+      "defaultType": "",
+      "defaultScope": "",
+      "defaultSubject": "",
+      "defaultBody": "",
+      "defaultIssues": ""
+    }
+  }
+}
