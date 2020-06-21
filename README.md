@@ -22,3 +22,22 @@ You can configure the better-changelog-commitizen adapter through the `~/.czrc` 
   }
 }
 ```
+
+## Commit Types
+
+```json
+{
+  "feat": "New feature addition",
+  "fix": "Bug fix",
+  "refactor": "Code change that does not change the behavior of the code",
+  "form": "Formatting change (e.g. comma removal, spacing change)",
+  "docs": "Documentation change",
+  "test": "Testing change",
+  "perf": "Performance improvement",
+  "security": "Security patch",
+  "ci/cd": "CI/CD configuration change",
+  "depend": "Dependency change",
+  "revert": "Reversion to a previous commit",
+  "feat-removal": "Feature removal"
+}
+```
